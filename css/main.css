@@ -1,7 +1,15 @@
+body{
+  background:skyblue;
+  color:#fff;
+  font-size:1.5em;
+  font-family:helvetica;
+}
+
 li{
 display:block;
 list-style-type:none;
 margin-left:0;
+margin-bottom:15px;
 }
 
 ul{
@@ -12,4 +20,22 @@ ul{
 body{
   margin: .5em auto;
   text-align:center;
+}
+img{
+  max-width:35px;
+}
+
+h2{
+  font-family:impact;
+  letter-spacing:3px;
+}
+
+input[type="button"]{
+  padding:10px;
+  border-radius:10px;
+  background:skyblue;
+  color:#fff;
+  border:#fff 1px solid;
+  font-size:.7em;
+  font-family:helvetica, sans-serif;
 }
