@@ -1,0 +1,15 @@
+li{
+display:block;
+list-style-type:none;
+margin-left:0;
+}
+
+ul{
+  margin-left:0;
+  padding-left:0;
+}
+
+body{
+  margin: .5em auto;
+  text-align:center;
+}
