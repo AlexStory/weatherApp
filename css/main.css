@@ -1,8 +1,9 @@
 body{
-  background:skyblue;
+  background:linear-gradient(#ddd,skyblue);
   color:#fff;
   font-size:1.5em;
   font-family:helvetica;
+  padding-top:30px;
 }
 
 li{

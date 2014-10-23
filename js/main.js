@@ -42,9 +42,13 @@ document.addEventListener('DOMContentLoaded', function(){
   getJSONP(url, 'awesome');
   $button.addEventListener('click', function(){
     $place = document.querySelector('.place').value;
-    $ul.innerHTML="";
-    var newurl = baseurl + $place + '.json';
-    getJSONP(newurl, 'awesome');
+    if($place.length != 5){
+        alert('please enter a valid 5 digit zip code');
+    } else{
+      $ul.innerHTML="";
+      var newurl = baseurl + $place + '.json';
+      getJSONP(newurl, 'awesome');
+    }
   });
   $geo.addEventListener('click', function(){
     navigator.geolocation.getCurrentPosition(show_map);
